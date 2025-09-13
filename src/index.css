@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #1d9bf0;   /* Twitter Blue */
+  --color-background: #000000; /* Page background */
+  --color-background-alt: #16181c; /* Cards / hover backgrounds */
+  --color-border: #2f3336;    /* Borders / dividers */
+  --color-text: #e7e9ea;      /* Main text */
+  --color-text-secondary: #71767b; /* Muted text */
+  --color-success: #00ba7c;   /* Like / success actions */
+  --color-error: #f4212e;     /* Error / delete actions */
+}
+
+.light {
+  --color-primary: #1d9bf0;   /* Twitter Blue */
+  --color-background: #ffffff;
+  --color-background-alt: #f7f9f9;
+  --color-border: #e1e8ed;
+  --color-text: #0f1419;
+  --color-text-secondary: #536471;
+  --color-success: #00ba7c;
+  --color-error: #f4212e;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+} 
+
+
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
