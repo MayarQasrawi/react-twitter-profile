@@ -1,0 +1,5 @@
+.trendsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+

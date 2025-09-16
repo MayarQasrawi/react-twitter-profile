@@ -1,0 +1,93 @@
+.profileItem {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 16px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  color: inherit;
+  justify-content: space-between;
+}
+.profileItem:hover {
+  background-color: var(--color-background-hover);
+
+}
+
+.accountBtn:hover {
+  background-color: var(--color-background-alt);
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 100px;
+  font-size: 12px;
+  gap: 2px;
+}
+
+.username,
+.handle {
+  max-width: 130px; /* Maximum width before truncating */
+  white-space: nowrap; /* Prevents text from wrapping to next line */
+  overflow: hidden; /* Hides the overflowing text */
+  text-overflow: ellipsis; /* Shows "..." when text is cut off */
+}
+.username {
+  font-weight: bold;
+}
+
+.handle {
+  color: var(--color-text-secondary);
+}
+
+.followButton{
+     padding: 6px 12px;
+     background-color: var(--color-text);
+     color: var(--color-background);
+     border: none;
+     border-radius: 20px;
+     cursor: pointer;
+     font-size: 12px;
+}
+.followButton:hover {
+     background-color: var(--color-primary);
+      color: var(--color-text);
+}
+
+
+.usernameContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.verificationBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  background-color: #1DA1F2; /* Twitter blue or your brand color */
+  color: var(--color-background-alt);
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.profileInfo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

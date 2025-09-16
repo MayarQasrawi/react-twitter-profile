@@ -1,0 +1,19 @@
+.rightSidebar {
+  width: 320px;
+  height: 100vh;
+ 
+  padding: 4px 16px;
+  overflow-y: auto;
+  background-color: var(--color-background, #000000);
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 0;
+  max-width: 100%;
+}
+
+
